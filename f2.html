@@ -243,30 +243,22 @@
                       <a id="5715" class="Symbol">}</a>
         <a id="5725" class="Symbol">}</a>
 
-<a id="5728" class="Comment">{-
-record
-                      { isCommutativeRing = isCommutativeRing ;
-                        ⁻¹inverse* = ⁻¹inverse* ;
-                        ≈ᵇ≈ = ≈ᵇ≈ ;
-                        ≈≈ᵇ = ≈≈ᵇ ;
-                        ≈ᵇsymm = ≈ᵇsymm}
--}</a>
-<a id="gf2Semiring"></a><a id="5968" href="f2.html#5968" class="Function">gf2Semiring</a> <a id="5980" class="Symbol">:</a> <a id="5982" href="Algebra.Bundles.html#16244" class="Record">Semiring</a> <a id="5991" href="Level.html#512" class="Function">0ℓ</a> <a id="5994" href="Level.html#512" class="Function">0ℓ</a>
-<a id="5997" href="f2.html#5968" class="Function">gf2Semiring</a> <a id="6009" class="Symbol">=</a> <a id="6011" class="Keyword">record</a>
-                <a id="6034" class="Symbol">{</a> <a id="6036" href="Algebra.Bundles.html#16340" class="Field">Carrier</a> <a id="6044" class="Symbol">=</a> <a id="6046" href="f2.html#262" class="Datatype">𝔽₂</a>
-                <a id="6065" class="Symbol">;</a> <a id="6067" href="Algebra.Bundles.html#16363" class="Field Operator">_≈_</a> <a id="6071" class="Symbol">=</a> <a id="6073" href="Agda.Builtin.Equality.html#151" class="Datatype Operator">_≡_</a>
-                <a id="6093" class="Symbol">;</a> <a id="6095" href="Algebra.Bundles.html#16394" class="Field Operator">_+_</a> <a id="6099" class="Symbol">=</a> <a id="6101" href="f2.html#376" class="Function Operator">_+_</a>
-                <a id="6121" class="Symbol">;</a> <a id="6123" href="Algebra.Bundles.html#16423" class="Field Operator">_*_</a> <a id="6127" class="Symbol">=</a> <a id="6129" href="f2.html#466" class="Function Operator">_*_</a>
-                <a id="6149" class="Symbol">;</a> <a id="6151" href="Algebra.Bundles.html#16452" class="Field">0#</a> <a id="6154" class="Symbol">=</a> <a id="6156" href="f2.html#279" class="InductiveConstructor">zero</a>
-                <a id="6177" class="Symbol">;</a> <a id="6179" href="Algebra.Bundles.html#16477" class="Field">1#</a> <a id="6182" class="Symbol">=</a> <a id="6184" href="f2.html#291" class="InductiveConstructor">one</a>
-                <a id="6204" class="Symbol">;</a> <a id="6206" href="Algebra.Bundles.html#16502" class="Field">isSemiring</a> <a id="6217" class="Symbol">=</a> <a id="6219" class="Keyword">record</a> <a id="6226" class="Symbol">{</a>
-                  <a id="6246" href="Algebra.Structures.html#11430" class="Field">isSemiringWithoutAnnihilatingZero</a> <a id="6280" class="Symbol">=</a> <a id="6282" class="Keyword">record</a> <a id="6289" class="Symbol">{</a>
-                    <a id="6311" href="Algebra.Structures.html#10097" class="Field">+-isCommutativeMonoid</a> <a id="6333" class="Symbol">=</a> <a id="6335" class="Keyword">record</a> <a id="6342" class="Symbol">{</a>
-                      <a id="6366" href="Algebra.Structures.html#3164" class="Field">isMonoid</a> <a id="6375" class="Symbol">=</a> <a id="6377" href="f2.html#1815" class="Function">+-isMonoid</a> <a id="6388" class="Symbol">;</a>
-                      <a id="6412" href="Algebra.Structures.html#3192" class="Field">comm</a> <a id="6417" class="Symbol">=</a> <a id="6419" href="f2.html#603" class="Function">+-comm</a> <a id="6426" class="Symbol">}</a> <a id="6428" class="Symbol">;</a>
-                    <a id="6450" href="Algebra.Structures.html#10150" class="Field">*-isMonoid</a> <a id="6461" class="Symbol">=</a> <a id="6463" href="f2.html#2506" class="Function">*-isMonoid</a> <a id="6474" class="Symbol">;</a>
-                    <a id="6496" href="Algebra.Structures.html#10192" class="Field">distrib</a> <a id="6504" class="Symbol">=</a> <a id="6506" href="f2.html#3207" class="Function">*-dist-+</a> <a id="6515" class="Symbol">}</a> <a id="6517" class="Symbol">;</a>
-                  <a id="6537" href="Algebra.Structures.html#11520" class="Field">zero</a> <a id="6542" class="Symbol">=</a> <a id="6544" href="f2.html#3427" class="Function">zero0*</a> <a id="6551" class="Symbol">}</a>
-                <a id="6569" class="Symbol">}</a>
+<a id="gf2Semiring"></a><a id="5728" href="f2.html#5728" class="Function">gf2Semiring</a> <a id="5740" class="Symbol">:</a> <a id="5742" href="Algebra.Bundles.html#16244" class="Record">Semiring</a> <a id="5751" href="Level.html#512" class="Function">0ℓ</a> <a id="5754" href="Level.html#512" class="Function">0ℓ</a>
+<a id="5757" href="f2.html#5728" class="Function">gf2Semiring</a> <a id="5769" class="Symbol">=</a> <a id="5771" class="Keyword">record</a>
+                <a id="5794" class="Symbol">{</a> <a id="5796" href="Algebra.Bundles.html#16340" class="Field">Carrier</a> <a id="5804" class="Symbol">=</a> <a id="5806" href="f2.html#262" class="Datatype">𝔽₂</a>
+                <a id="5825" class="Symbol">;</a> <a id="5827" href="Algebra.Bundles.html#16363" class="Field Operator">_≈_</a> <a id="5831" class="Symbol">=</a> <a id="5833" href="Agda.Builtin.Equality.html#151" class="Datatype Operator">_≡_</a>
+                <a id="5853" class="Symbol">;</a> <a id="5855" href="Algebra.Bundles.html#16394" class="Field Operator">_+_</a> <a id="5859" class="Symbol">=</a> <a id="5861" href="f2.html#376" class="Function Operator">_+_</a>
+                <a id="5881" class="Symbol">;</a> <a id="5883" href="Algebra.Bundles.html#16423" class="Field Operator">_*_</a> <a id="5887" class="Symbol">=</a> <a id="5889" href="f2.html#466" class="Function Operator">_*_</a>
+                <a id="5909" class="Symbol">;</a> <a id="5911" href="Algebra.Bundles.html#16452" class="Field">0#</a> <a id="5914" class="Symbol">=</a> <a id="5916" href="f2.html#279" class="InductiveConstructor">zero</a>
+                <a id="5937" class="Symbol">;</a> <a id="5939" href="Algebra.Bundles.html#16477" class="Field">1#</a> <a id="5942" class="Symbol">=</a> <a id="5944" href="f2.html#291" class="InductiveConstructor">one</a>
+                <a id="5964" class="Symbol">;</a> <a id="5966" href="Algebra.Bundles.html#16502" class="Field">isSemiring</a> <a id="5977" class="Symbol">=</a> <a id="5979" class="Keyword">record</a> <a id="5986" class="Symbol">{</a>
+                  <a id="6006" href="Algebra.Structures.html#11430" class="Field">isSemiringWithoutAnnihilatingZero</a> <a id="6040" class="Symbol">=</a> <a id="6042" class="Keyword">record</a> <a id="6049" class="Symbol">{</a>
+                    <a id="6071" href="Algebra.Structures.html#10097" class="Field">+-isCommutativeMonoid</a> <a id="6093" class="Symbol">=</a> <a id="6095" class="Keyword">record</a> <a id="6102" class="Symbol">{</a>
+                      <a id="6126" href="Algebra.Structures.html#3164" class="Field">isMonoid</a> <a id="6135" class="Symbol">=</a> <a id="6137" href="f2.html#1815" class="Function">+-isMonoid</a> <a id="6148" class="Symbol">;</a>
+                      <a id="6172" href="Algebra.Structures.html#3192" class="Field">comm</a> <a id="6177" class="Symbol">=</a> <a id="6179" href="f2.html#603" class="Function">+-comm</a> <a id="6186" class="Symbol">}</a> <a id="6188" class="Symbol">;</a>
+                    <a id="6210" href="Algebra.Structures.html#10150" class="Field">*-isMonoid</a> <a id="6221" class="Symbol">=</a> <a id="6223" href="f2.html#2506" class="Function">*-isMonoid</a> <a id="6234" class="Symbol">;</a>
+                    <a id="6256" href="Algebra.Structures.html#10192" class="Field">distrib</a> <a id="6264" class="Symbol">=</a> <a id="6266" href="f2.html#3207" class="Function">*-dist-+</a> <a id="6275" class="Symbol">}</a> <a id="6277" class="Symbol">;</a>
+                  <a id="6297" href="Algebra.Structures.html#11520" class="Field">zero</a> <a id="6302" class="Symbol">=</a> <a id="6304" href="f2.html#3427" class="Function">zero0*</a> <a id="6311" class="Symbol">}</a>
+                <a id="6329" class="Symbol">}</a>
 
 </pre></body></html>
