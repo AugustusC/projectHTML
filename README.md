@@ -1,9 +1,9 @@
 #How to Run
 
 ### Requirements:
-Agda (tested on version 2.6.1)
-Agda stdlib (tested on version 1.5)
-Emacs with agda-mode
+- Agda (tested on version 2.6.1)
+- Agda stdlib (tested on version 1.5)
+- Emacs with agda-mode
 
 ###Obtaining the Files
 The files can be obtained via git: [repo](https://git-teaching.cs.bham.ac.uk/mod-ug-proj-2020/cxa657.git)
